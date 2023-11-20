@@ -1,0 +1,38 @@
+.item {
+    background-color: rgb(206, 139, 52);
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    padding: 5px;
+    margin: 15px;
+}
+
+.content {
+    flex: auto;
+    text-align: center;
+}
+
+.desc {
+    font-size: 20px;
+    color: rgb(48, 79, 3);
+}
+
+.delete {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.delete:hover {
+    color: red;
+    transform: rotate(1turn)
+}
+
+.time {
+    font-size: 16px;
+    color: rgb(187, 11, 11);
+    font-weight: 600;
+}

@@ -1,0 +1,10 @@
+.logs {
+    padding: 20px;
+    background-color: rgb(218, 218, 143);
+}
+
+.no-logs {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
